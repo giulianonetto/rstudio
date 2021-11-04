@@ -1,0 +1,44 @@
+{
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet1",
+            "Console",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Connections",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Build",
+            "VCS",
+            "Viewer"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true
+    },
+    "show_margin": false,
+    "show_indent_guides": true,
+    "check_arguments_to_r_function_calls": true,
+    "syntax_color_console": true,
+    "highlight_r_function_calls": true,
+    "font_size_points": 11,
+    "editor_theme": "Merbivore",
+    "default_project_location": "/home/rstudio",
+    "source_with_echo": true,
+    "pdf_previewer": "none",
+    "document_author": "Giuliano",
+    "wrap_tab_navigation": false,
+    "save_workspace": "never",
+    "rmd_chunk_output_inline": false,
+    "reuse_sessions_for_project_links": true,
+    "jobs_tab_visibility": "shown"
+}
