@@ -66,12 +66,6 @@ RUN R -e "blogdown::install_hugo()"
 RUN apt-get install -y --no-install-recommends python3-pip
 RUN pip3 install pandas
 
-# alias to launch rstudio server
-#RUN echo "alias rstudio='/init'" >> ~/.bashrc
-
-ENV BASEDIR=/home/rstudio
-WORKDIR /home/rstudio
-
 COPY rstudio-prefs.json /etc/rstudio/rstudio-prefs.json
 
 CMD ["/init"]
