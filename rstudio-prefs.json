@@ -26,7 +26,7 @@
         "console_right_on_top": true
     },
     "show_margin": false,
-    "show_indent_guides": true,
+    "show_indent_guides": false,
     "check_arguments_to_r_function_calls": true,
     "syntax_color_console": true,
     "highlight_r_function_calls": true,
@@ -35,10 +35,13 @@
     "default_project_location": "/home/rstudio",
     "source_with_echo": true,
     "pdf_previewer": "none",
-    "document_author": "Giuliano",
+    "document_author": "Giuliano Netto Flores Cruz",
     "wrap_tab_navigation": false,
     "save_workspace": "never",
     "rmd_chunk_output_inline": false,
+    "restore_last_project": false,
+    "restore_source_documents": false,
     "reuse_sessions_for_project_links": true,
-    "jobs_tab_visibility": "shown"
+    "jobs_tab_visibility": "shown",
+    "show_hidden_files": true
 }
