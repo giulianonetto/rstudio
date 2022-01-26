@@ -85,5 +85,6 @@ WORKDIR /home/rstudio
 #RUN mkdir -p ${BASEDIR}/basic_rfiles/
 
 COPY rstudio-prefs.json /etc/rstudio/rstudio-prefs.json
+COPY run_job.R /usr/bin/run_job.R
 
 CMD ["/bin/bash"]
