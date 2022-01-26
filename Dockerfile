@@ -68,6 +68,9 @@ RUN R -e "devtools::install_github('amirmasoudabdol/preferably')"
 RUN R -e "devtools::install_version('blogdown', version = '1.5', dependencies = T)"
 RUN R -e "blogdown::install_hugo()"
 RUN R -e "devtools::install_github('BlakeRMills/MetBrewer')"
+RUN R -e "devtools::install_version('docopt', version = '0.7.1', dependencies = T)"
+RUN R -e "devtools::install_version('logger', version = '0.2.2', dependencies = T)"
+RUN R -e "devtools::install_version('yaml', version = '2.2.1', dependencies = T)"
 
 
 RUN apt-get install -y --no-install-recommends python3-pip
