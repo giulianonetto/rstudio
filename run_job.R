@@ -51,7 +51,7 @@ msg <- paste0(
 logger::log_info(msg)
 
 run_attempt <- try(
-  system2(instructions[['call']]),
+  system(instructions[['call']]),
   silent = TRUE
 )
 
