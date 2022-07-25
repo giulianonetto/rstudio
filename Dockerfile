@@ -96,6 +96,10 @@ RUN R -e "BiocManager::install('annotatr', version = '3.15', update = FALSE)"
 RUN R -e "devtools::install_version('Morpho', version = '2.9', dependencies = T)"
 RUN R -e "devtools::install_version('ggdendro', version = '0.1.23', dependencies = T)"
 RUN R -e "devtools::install_version('ggfortify', version = '0.4.14', dependencies = T)"
+RUN R -e "BiocManager::install('minfi', version = '3.15', update = FALSE)"
+RUN R -e "BiocManager::install('IlluminaHumanMethylationEPICmanifest', version = '3.15', update = FALSE)"
+RUN R -e "devtools::install_version('ggpointdensity', version = '0.1.0', dependencies = T)"
+RUN R -e "devtools::install_version('ggExtra', version = '0.10.0', dependencies = T)"
 
 RUN pip3 install pandas
 
